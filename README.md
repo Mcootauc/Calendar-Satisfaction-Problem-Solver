@@ -1,10 +1,12 @@
-# Tic-Tac-Total
+# Calendar Satisfaction Problem Solver
 By Mitchell Cootauco
 
 **CMSI 2130** Algorithms & Analysis, Spring 2022
 
-Tic Tac Total is a java program where you play Tic Tac Toe, but with numbers. The move options for player 1 are, [1, 3, 5]. The move options for player 2 are, [2, 4, 6]. To win against your AI opponent, you must place a number on the board in a diagonal, horizontal, or verticle line so the numbers add up to 13 on your turn.
+Calendar Satisfaction Problem Solver is a java program that provides a solution for scheduling some n meetings in a given period of time. The meetings are also according to some unary and binary constraints on the dates of each meeting. 
 
-Using the search algorithm, Alpha-Beta Pruning, the AI oppenent plays the most optimal move in order to win the game. The purpose of this program is to practice using alpha-beta purning, maps, tree maps, iterators, and a 2D int array.
+An unary constraint is a constraint on a single variable and a binary constraint is a constraint over a pair of variables. 
 
-To play this game, run the file, "T3Game", in an IDE. Both the column and row use the index 0 - 2.
+The goal is to provide a working schedule based on the unary and binary constraints on the dates of each meeting in the given period of time.
+
+Using node consistency and arc consistency, the program makes sure that every unary or binary constraint on a variable is satisfied by all values in the domain of the variable. The purpose of this program is to practice using array lists, nodes, arcs, and domains.
