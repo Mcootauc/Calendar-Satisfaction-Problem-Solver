@@ -1,7 +1,7 @@
 # Calendar Satisfaction Problem Solver
 By Mitchell Cootauco
 
-**CMSI 2130** Algorithms & Analysis, Spring 2022
+**CMSI 2130** Algorithms & Analysis, May 2022
 
 Calendar Satisfaction Problem Solver is a java program that provides a solution for scheduling some n meetings in a given period of time. The meetings are also according to some unary and binary constraints on the dates of each meeting. 
 
