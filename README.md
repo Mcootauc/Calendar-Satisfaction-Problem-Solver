@@ -1,14 +1,20 @@
-# Calendar Satisfaction Problem Solver
-By Mitchell Cootauco
+# Calendar Satisfaction Problem Solver (May 2022)
+This is Calendar Satisfaction Problem Solver. A Java program that provides a solution for scheduling n amount of meetings in a given period. The meetings are also according to some unary and binary constraints on the dates of each meeting. 
 
-**CMSI 2130** Algorithms & Analysis, May 2022
+## 🔗 Developer
+[@Mitchell Cootauco](https://github.com/Mcootauc)
 
-Calendar Satisfaction Problem Solver is a java program that provides a solution for scheduling some n meetings in a given period of time. The meetings are also according to some unary and binary constraints on the dates of each meeting. 
+## Tech Stack
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
-An unary constraint is a constraint on a single variable and a binary constraint is a constraint over a pair of variables. 
+# How to set up (Use the Eclipse IDE!)
+## Installing JUnit4 in Eclipse
+1. Right-click on the Project Folder for which you want to run JUnit tests.
+2. Select the Properties menu item then navigate to the Java Build Path on the left.
+3. Find the Libraries tab, then click on the Class-Path list. On the right bar, choose Add Library...
+4. In the list of options, select JUnit, then add JUnit 4 to the build path.
+5. Apply and close!
 
-The goal is to provide a working schedule based on the unary and binary constraints on the dates of each meeting in the given period of time.
-
-Using node consistency and arc consistency, the program makes sure that every unary or binary constraint on a variable is satisfied by all values in the domain of the variable. 
-
-The purpose of this program is to practice using array lists, nodes, arcs, and domains.
+## How to launch the program
+- Press the green play button on the top of the Eclipse IDE to run the program!<br>
+- Once JUnit4 is installed, you repeat the step above to run the program again.
